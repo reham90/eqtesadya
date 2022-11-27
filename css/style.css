@@ -1727,3 +1727,12 @@ text-decoration: none;
     width: 439px;
   }
 }
+
+@media only screen and (max-width: 947px){
+  .slider{
+    margin-top: 0;
+  }
+  .product-image{
+    height: 166px;
+  }
+}
