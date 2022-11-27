@@ -226,9 +226,10 @@ $(document).ready(function () {
         margin: 20,
         items: 3,
       },
+     
       600: {
-        margin: 30,
-        items: 2,
+        margin: 90,
+        items: 3,
       },
       1200: {
         margin: 30,
@@ -261,7 +262,7 @@ $(document).ready(function () {
       },
       600: {
         margin: 30,
-        items: 2,
+        items: 3,
       },
       1200: {
         margin: 30,
@@ -292,7 +293,7 @@ $(document).ready(function () {
       },
       600: {
         margin: 50,
-        items: 2,
+        items: 3,
       },
       1200: {
         margin: 45,

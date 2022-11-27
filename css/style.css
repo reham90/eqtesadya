@@ -54,7 +54,7 @@ html[dir="rtl"] .nav-nav ul li a:visited {
 html[dir="rtl"] .nav-nav ul li a:first-child {
   padding-right: 0;
 }
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 991px) {
   html[dir="rtl"] .nav-nav {
     right: -250px;
   }
@@ -261,7 +261,7 @@ html[dir="ltr"] .nav-nav ul li a:first-child {
 html[dir="ltr"] .feature-text {
   text-align: center;
 }
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 991px) {
   html[dir="ltr"] .nav-nav {
     left: -250px;
   }
@@ -673,7 +673,7 @@ html[dir="ltr"] .scroll-up-btn {
   opacity: 0.7;
   text-decoration: none;
 }
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 991px) {
   .nav-mobile {
     display: block;
     position: absolute;
@@ -744,7 +744,7 @@ html[dir="ltr"] .scroll-up-btn {
 .nav-list {
   padding: 0;
 }
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 991px) {
   .nav-nav ul li a {
     padding: 0;
     margin-bottom: 28px;
@@ -752,6 +752,7 @@ html[dir="ltr"] .scroll-up-btn {
   .nav-nav ul {
     padding: 105px 25px 30px;
   }
+ 
 }
 /*/
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -1678,5 +1679,51 @@ text-decoration: none;
 @media only screen and (max-width: 991px) {
   .fixed .hide-search {
     display: block;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  html[dir="ltr"] .nav-nav ul li a, html[dir="ltr"] .nav-nav ul li a:visited{
+    padding: 0 7px 0 0;
+  }
+
+}
+@media only screen and (max-width: 1181px){
+  .banner-block{
+    height: auto;
+  }
+  .product-image{
+    width: 166px;
+  }
+ .slider{
+  width: 580px;
+  margin-top: -72px;
+ }
+
+}
+@media only screen and (max-width: 935px){
+  .slider{
+    margin-top: 0 !important;
+  }
+  html[dir="ltr"] .cart-section{
+    right:103px;
+  }
+  html[dir="rtl"] .cart-section{
+    left:103px;
+  }
+  .product-image{
+    height: 166px;
+  }
+}
+@media only screen and (max-width: 480px){
+  html[dir="ltr"] .cart-section{
+    right:33px;
+  }
+  html[dir="rtl"] .cart-section{
+    left:33px;
+  }
+  .slider{
+    width: 439px;
   }
 }
