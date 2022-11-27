@@ -5,8 +5,7 @@ $(document).ready(function () {
     $(window).on("scroll load", function () {
       var scroll = $(window).scrollTop();
       if (lastScroll - scroll > 0) {
-      } else {
-        $(".reham-search").slideUp("500");
+        $(".reham-search").hide();
         $(".btn-search-mobile .la-search").removeClass("la-times");
       }
       lastScroll = scroll;
@@ -224,12 +223,12 @@ $(document).ready(function () {
     responsive: {
       0: {
         margin: 20,
-        items: 3,
+        items: 2,
       },
      
       600: {
         margin: 90,
-        items: 3,
+        items: 2,
       },
       1200: {
         margin: 30,
@@ -262,7 +261,7 @@ $(document).ready(function () {
       },
       600: {
         margin: 30,
-        items: 3,
+        items: 2,
       },
       1200: {
         margin: 30,
@@ -289,11 +288,11 @@ $(document).ready(function () {
     responsive: {
       0: {
         margin: 15,
-        items: 3,
+        items: 2,
       },
       600: {
         margin: 50,
-        items: 3,
+        items: 2,
       },
       1200: {
         margin: 45,

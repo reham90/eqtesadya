@@ -695,6 +695,7 @@ html[dir="ltr"] .scroll-up-btn {
     background: #fff;
     height: 100%;
     box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
+    overflow-y: scroll;
   }
   .nav-nav ul li {
     float: none;
@@ -752,7 +753,11 @@ html[dir="ltr"] .scroll-up-btn {
   .nav-nav ul {
     padding: 105px 25px 30px;
   }
- 
+  .brand-block {
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+}
 }
 /*/
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -1724,7 +1729,7 @@ text-decoration: none;
     left:33px;
   }
   .slider{
-    width: 439px;
+    width:310px;
   }
 }
 
@@ -1733,6 +1738,7 @@ text-decoration: none;
     margin-top: 0;
   }
   .product-image{
-    height: 166px;
+    width: 140px;
+    height: 140px;
   }
 }
